@@ -13,6 +13,19 @@ public:
         this->prev = NULL;
     }
 };
+// class Node
+// {
+// public:
+//     int val;
+//     Node *next;
+//     Node *prev;
+//     Node(int val)
+//     {
+//         this->val = val;
+//         this->next = NULL;
+//         this->prev = NULL;
+//     }
+// };
 void print_normal(Node *head)
 {
     Node *tmp = head;
